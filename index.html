@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Patware</title>
+    <link rel="stylesheet" href="css\style.css">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-box"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">HOME</a>
+            <a href="#about">ABOUT ME</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#contact">CONTACT</a>
+            <a href="HARSH PATWARE (1).pdf" download="HARSH PATWARE (1).pdf">Download CV</a>
+        </nav>
+    </header>
+    <!-- home section design  -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>HARSH PATWARE</h1>
+            <h3>and i am a <span> FRESHER</span></h3>
+            <p>This is the kick-start of my career and I intend to immerse myself into learning so as to widen my knowledge scopes.  I’m here to introduce myself in my professional portfolio. I’m excited to be able to share my work with you here.</p>
+        </div>    
+        <div class="home-image">
+            <img src="Untitled.jpg" alt="my-img"/>
+        </div> 
+        <div class="online-presence">
+            <a href="https://github.com/patware887" target="_blank"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.linkedin.com/in/harsh-patware-78923a253" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+        </div> 
+        <div class="cv">
+            <a href="HARSH PATWARE (1).pdf" download="HARSH PATWARE (1).pdf" class="btn">Download CV</a>
+        </div>
+    </section>
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Untitled (1).jpg" alt=""/>
+        </div>
+        <div class="content">
+            <h2>ABOUT <span>ME</span></h2>
+            <h3>Graduate 2024</h3>
+            <p>A highly motivated, goal driven and detail-oriented person who seeks for challenging opportunities. I am currently persuing Bachlors of technology in Information Technology with specialization in Artificial Intelligence. I am seeking opportunities to join a company that can help me in enhancing my skills, strengthening my knowledge, and realising my potential. I am willing to explore a wide variety of opportunities that can help me gain perspective.</p>
+
+        </div>
+    </section>
+    <!-- projects sections -->
+    <section class="projects" id="projects">
+        <h2 class="heading"><span>PROJECTS</span></h2>
+        <div class="project-contain">
+            <div class="cont">
+                <h3>Chatter Bot</h3>
+                <p>The main objective was to create a chatbot to simulate a human conversation to
+                    assist users with their banking needs and to provide a more personal experience.
+                    Advancements in artificial Intelligence, machine learning techniques, improved aptitude
+                    for decision making, larger availability of domains and corpus, have increased the
+                    practicality of integrating a chat bot into applications.Users will be able to ask any banking related queries in natural language that they are comfortable using such as; view account information, transactions and check
+                    balance.</p>
+                <a href="https://github.com/Kp779/chatterBot" target="_blank" class="btn">Read more</a>
+            </div>
+
+            <div class="cont">
+                <h3>Smart Parking using IoT and arduino</h3>
+                <p>Smart parking management system is an IoT module used to monitor the parking spaces 
+                    in the city and signalize the availability of parking space. Consistent efforts are being made in the field 
+                    of  IoT  to  maximize  the  productivity  and  reliability  of  urban  infrastructure.  We  present  an  IoT  based 
+                    cloud  integrated  smart  parking  system.  The  proposed  Smart  Parking  system  consists  of  an  on-site 
+                    deployment of an IoT module that is used to monitor and signalize the state of availability of each single 
+                    parking space.</p>
+                <a href="Smart Parking SRS.pdf" download="Smart Parking SRS.pdf" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <form onsubmit="sendEmail(); reset(); return false;">
+    <div class="input-box">
+    <input type="text" placeholder="Full Name">
+    <input type="email" id="email-address" placeholder="Email Address">
+    </div>
+    <div class="input-box">
+    <input type="number" placeholder="Mobile Number">
+    <input type="text" placeholder="Email Subject">
+    </div>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+    <input type="submit" value="Send Messaage" class="btn">
+    </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
